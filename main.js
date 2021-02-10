@@ -2,9 +2,9 @@ const profile = {
     data() {
         return {
             tasks: [
-                { img: "./images/download.jpg", name: 'pinjang' },
-                { img: "./images/download2.jpg", name: 'xxpxiixn' },
-
+                { img: "./images/download.jpg", name: 'Pinjang ' },
+                { img: "./images/download2.jpg", name: 'xpxiixn ' },
+                { img: "./images/download3.jpg", name: 'CAT ' },
             ],
 
 

@@ -35,7 +35,7 @@
                     <div class=" flex justify-center items-center ">
                         <div v-for="(task,index) in tasks" :class="{done: task.done} ">
                             <button v-on:click="toggleDone(index)"> <img v-bind:src="task.img" width="80"
-                                    class="rounded-full item-center h-20  "></button>
+                                    class="rounded-full item-center   "></button>
                             <h1 class=" flex justify-center items-center  text-xl text-white font-medium p-2 ">
                                 {{task.name}}</h1>
 
