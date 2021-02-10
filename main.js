@@ -17,18 +17,13 @@ const profile = {
         toggleShow(index) {
             this.tasks[index].show = !this.tasks[index].show
         },
-        toggleLike(index) {
-            this.tasks[index].like = !this.tasks[index].like
-        }
-
+       
     },
     computed: {
-        countUndone() {
+        countdone() {
             return this.tasks.filter(t => !t.done).length
         },
-        countUnlike() {
-            return this.tasks.filter(t => !t.like).length
-        },
+       
     }
 
 }
